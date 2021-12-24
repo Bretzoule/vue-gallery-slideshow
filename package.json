@@ -81,6 +81,7 @@
     "OperaMobile >= 12"
   ],
   "dependencies": {
+    "regjsparser": "^0.8.3",
     "vue-runtime-helpers": "^1.1.2"
   }
 }
