@@ -69,13 +69,13 @@ const app = new Vue({
 
 ### Options
 
-## Adding alt text
+## Adding alt text and/or description.
 
-If you want to add alt tags to the images, you can do by wrapping it in an object and adding an `alt` property:
+If you want to add alt tags to the images or a description, you can do by wrapping it in an object and adding an `alt` and/or a `desc` property:
 
 ```javascript
 images: [
-   { url: 'https://placem.at/places?w=800&h=600&random=1', alt:'My alt text' },
+   { url: 'https://placem.at/places?w=800&h=600&random=1', alt:'My alt text', desc:'My description'},
    ...
 ]
 ```
@@ -107,7 +107,7 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
 ## Author
 
-Norman Sander
+Norman Sander && the community.
 
 ## License
 
